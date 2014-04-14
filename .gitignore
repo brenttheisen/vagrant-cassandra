@@ -1,0 +1,8 @@
+.Vagrantfile.swp
+.vagrant
+vagrant/tmp
+vagrant/Cheffile.lock
+vagrant/cookbooks
+*.swp
+*.swo
+

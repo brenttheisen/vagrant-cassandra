@@ -3,8 +3,12 @@
 
 site 'http://community.opscode.com/api/v1'
 
-cookbook 'apt'
 cookbook 'java'
+cookbook 'yum'
 
-cookbook 'cassandra',
-    :git => 'https://github.com/michaelklishin/cassandra-chef-cookbook'
+cookbook 'cassandra', :git => 'https://github.com/michaelklishin/cassandra-chef-cookbook'
+
+# TODO Switch commenting on two lines below once spark cookbook is done
+cookbook 'scala' # TODO This can be replaced with the spark cookbook later
+# cookbook 'spark', :git => 'https://github.com/brenttheisen/spark-chef.git'
+
